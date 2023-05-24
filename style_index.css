@@ -25,7 +25,7 @@ nav {
   margin-right: 12%;
   border-radius: 10px;
   white-space: nowrap;
-  flex-wrap: wrap;
+  overflow: auto;
 }
 
 nav ul {
@@ -48,7 +48,8 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 10px 5px; /* Réduire l'espace autour du texte */
+  white-space: nowrap;
   display: block;
   transition: all 0.3s ease;
   border-radius: 10px;
