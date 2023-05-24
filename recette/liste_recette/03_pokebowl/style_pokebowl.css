@@ -1,0 +1,184 @@
+body {
+  font-family: 'Comfortaa', sans-serif;
+  background-color: rgba(109, 7, 26);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+nav {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+
+.recette {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: block;
+}
+
+.recette h2 {
+  margin: 10px;
+  font-size: 20px;
+  
+}
+
+section {
+  border-bottom: 2px solid #222;
+  margin:  0px;
+  padding: 0px 0px 10px 0px;
+  
+  
+}
+
+
+.recette img {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #222;
+  float:right;
+}
+
+.recette img {
+
+  width: 100%;
+  height: auto;
+  
+}
+
+.recette li {
+  list-style-type:circle;
+  margin-bottom: 5px;
+  
+  
+}
+
+.text {
+  width: 50%;
+  margin-right: 20px;
+  color: #333;
+}
+
+.text h4 {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.text p {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.recette a {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 200px;
+}
+
+.recette a:hover {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.ingredients {
+  margin: 40px;
+  padding: 20
+}
+button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px ;
+  border: none;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 0%;
+  height: 50px;
+  left: 0px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #222;
+}
+  
