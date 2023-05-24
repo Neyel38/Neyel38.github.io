@@ -25,6 +25,7 @@ nav {
   margin-right: 12%;
   border-radius: 10px;
   white-space: nowrap;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -34,16 +35,20 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav li {
   margin-right: 20px;
+  flex-grow: 1; /* Permet aux éléments de grandir pour remplir l'espace disponible */
+  flex-basis: 100%; /* Chaque élément occupe 100% de la largeur sur une seule ligne */
+  text-align: center; 
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 0;
   display: block;
   transition: all 0.3s ease;
   border-radius: 10px;
